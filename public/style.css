@@ -1,0 +1,102 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4vw;
+    background-color: black;
+    color: white;
+}
+
+.header_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #1d1d1d;;
+}
+
+.msg_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.chat_section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 2vw;
+}
+
+.flick_section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.body_section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+.fetch_section {
+    border-right: 1px solid #1d1d1d;
+    margin-right: 0.2vw;
+    width: 50%;
+}
+
+.msg_section {
+    border-left: 1px solid #1d1d1d;
+    width: 50%;
+}
+
+.name_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    margin: 2vw;
+}
+
+#button_rating,
+#flick_rec,
+#button_send {
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 2vw;
+    cursor: pointer;
+    color: #00ff0d;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#flick_name,
+#flick_rating,
+#name_input,
+#msg_input {
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    background: transparent;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: #00ff0d
+}
+
+#flick_info {
+    font-size: 1.5vw;
+    color: #00ff0d
+}
+
+#chat_box {
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    color:#00ff0d
+}
